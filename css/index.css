@@ -1,0 +1,42 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(233, 242, 255);
+}
+
+.fondo {
+    background-color: rgb(47, 46, 46);
+    height: 500px;
+}
+
+.barra_busqueda {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    background-color: red;
+}
+
+.barra {
+    margin-top: 20px;
+    width: 800px;
+    height: 30px;
+}
+
+.listado {
+    height: 510px;
+    width: 25%;
+    box-shadow: 0 0 0px #111;
+    margin: 50px 30px;
+    background-color: white;
+}
+
+.listado .imagen {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+
+.card img {
+    margin: auto;
+    display: block;
+}
