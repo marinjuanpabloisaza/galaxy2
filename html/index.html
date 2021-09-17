@@ -7,37 +7,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/index.css">
-</head>
 
-<body>
-    <div class="fondo">
+    <script src="../js/main.js" async></script>
 
-        <p>.</p>
 
-    </div>
+    <body>
 
-    <div class="barra_busqueda">
+        <div class="navbar">
+            <a class="active" href="#"><i id="inicio"></i> inicio</a>
+            <button id="inicioSesion">inicio de sesión</button>
+            <button id="registrarse">registrarse</button>
 
-        <input class="barra" type="text" placeholder="buscar..">
-    </div>
 
-    <div class="listado">
-        <div class="imagen">
-            <img src="#" alt="">
+
         </div>
-        <div class="informacion">
-            <h1>hola</h1>
-            <p>holax2</p>
-            <div class="precio">
-                <div class="box-precio">
-                    <b>p/20.000</b>
+        <div class="cajaModal" id=modal>
+            <div class="ventanaModal">
+                <div class="modalHeader">
+                    <h1>Hola ingresa tu email o usuario</h1>
+                </div>
+                <div class="modalBody">
+                    <form class="fromIngresar">
+                        <label for="fname">Usuario:</label>
+                        <input type="text" id="fname" name="fname" autocomplete="off"><br>
+
+
+                        <label for="email">Contraseña:</label>
+                        <input type="password" id="lname" name="lname"><br>
+
+
+                        <input type="submit" id="ingresar" name="ingresar" value="Ingresar" autocomplete="off"> </form>
+
+                    <img src="../img/imagen/logo.png" alt="" id="logo">
+
+                    <button onclick="openModal()">
+                    salir
+                </button>
 
                 </div>
             </div>
         </div>
 
+        <div class="fondo">
 
-    </div>
-</body>
+            <p>.</p>
+
+        </div>
+
+        <div class="barra_busqueda">
+
+            <input class="barra" type="text" placeholder="buscar..">
+        </div>
+
+        <div class="listado">
+            <div class="imagen">
+                <img src="#" alt="">
+            </div>
+            <div class="informacion">
+                <h1>hola</h1>
+                <p>holax2</p>
+                <div class="precio">
+                    <div class="box-precio">
+                        <b>p/20.000</b>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
 
 </html>

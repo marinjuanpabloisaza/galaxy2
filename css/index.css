@@ -1,42 +1,116 @@
-body {
-    padding: 0px;
-    margin: 0px;
-    background-color: rgb(233, 242, 255);
-}
-
-.fondo {
-    background-color: rgb(47, 46, 46);
-    height: 500px;
-}
-
-.barra_busqueda {
-    display: flex;
-    justify-content: center;
-    height: 90px;
-    background-color: red;
-}
-
-.barra {
-    margin-top: 20px;
-    width: 800px;
-    height: 30px;
-}
-
-.listado {
-    height: 510px;
-    width: 25%;
-    box-shadow: 0 0 0px #111;
-    margin: 50px 30px;
-    background-color: white;
-}
-
-.listado .imagen {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 170px;
-}
-
-.card img {
-    margin: auto;
-    display: block;
-}
+        body {
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(233, 242, 255);
+        }
+        
+        .fondo {
+            background-color: rgb(47, 46, 46);
+            height: 500px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .barra_busqueda {
+            display: flex;
+            justify-content: center;
+            height: 90px;
+            background-color: red;
+        }
+        
+        .barra {
+            margin-top: 20px;
+            width: 800px;
+            height: 30px;
+        }
+        
+        .listado {
+            height: 510px;
+            width: 25%;
+            box-shadow: 0 0 0px #111;
+            margin: 50px 30px;
+            background-color: white;
+        }
+        
+        .listado .imagen {
+            height: 200px;
+            width: 100%;
+            margin-bottom: 170px;
+        }
+        
+        .card img {
+            margin: auto;
+            display: block;
+        }
+        /* Style the navigation bar */
+        
+        .navbar {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+        }
+        /* barra  */
+        
+        .navbar a,
+        button {
+            float: left;
+            text-align: center;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom: 0px;
+        }
+        /* Navbar links on mouse-over */
+        
+        .navbar a:hover {
+            background-color: #000;
+        }
+        /* boton verde */
+        
+        .active {
+            background-color: #04AA6D;
+        }
+        /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+        
+        @media screen and (max-width: 500px) {
+            .navbar a {
+                float: none;
+                display: block;
+            }
+        }
+        
+        .cajaModal {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        #logo {
+            width: 250px;
+            height: 250px;
+            display: flex;
+            flex-direction: row-reverse;
+            margin-left: 60px;
+        }
+        
+        .fromIngresar {
+            margin: 20px;
+            flex-direction: row-reverse;
+            border: 0;
+        }
+        
+        .ventanaModal {
+            margin-top: 200px;
+            background-color: #ffffff;
+            text-align: center;
+            justify-content: center;
+            width: 1200px;
+            height: 600px;
+        }
