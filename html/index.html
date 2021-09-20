@@ -17,36 +17,76 @@
             <a class="active" href="#"><i id="inicio"></i> inicio</a>
             <button id="inicioSesion">inicio de sesión</button>
             <button id="registrarse">registrarse</button>
-
-
-
         </div>
         <div class="cajaModal" id=modal>
             <div class="ventanaModal">
-                <div class="modalHeader">
-                    <h1>Hola ingresa tu email o usuario</h1>
-                </div>
+
                 <div class="modalBody">
+                    <h1 id="textoinicio">Iniciar sesión</h1>
                     <form class="fromIngresar">
-                        <label for="fname">Usuario:</label>
-                        <input type="text" id="fname" name="fname" autocomplete="off"><br>
+
+                        <input type="text" id="fname" name="usuario" autocomplete="off" placeholder="Usuario" required><br>
 
 
-                        <label for="email">Contraseña:</label>
-                        <input type="password" id="lname" name="lname"><br>
+
+                        <input type="password" id="lname" name="password" placeholder="Contraseña" required><br>
 
 
-                        <input type="submit" id="ingresar" name="ingresar" value="Ingresar" autocomplete="off"> </form>
+                        <input type="submit" id="ingresar" name="ingresar" value="Ingresar"> </form>
+                    <p id="Recuperar">¿Has olvidado la contraseña? <a href=""> Recuperar</a> </p>
 
-                    <img src="../img/imagen/logo.png" alt="" id="logo">
+                    </p>
+                    <div class="fondoModal">
+                        <img src="../img/imagen/logo.png" alt="" id="logo">
 
+
+                    </div>
                     <button onclick="openModal()">
-                    salir
-                </button>
-
+                        salir
+                    </button>
                 </div>
             </div>
         </div>
+
+
+        <div class="cajaModal" id=modalR>
+            <div class="ventanaModal">
+
+                <div class="modalBody">
+
+                    <form class="formRegister">
+
+                        <input type="text" placeholder="Nombre" id="nombreRegistro" autocomplete="off" required>
+                        <input type="text" placeholder="Apellido" id="ApellidoRegistro" autocomplete="off" required>
+                        <br>
+                        <input type="text" placeholder="Contraseña" id="passwordRegistro" autocomplete="off" required>
+                        <input type="text" placeholder="Correo" id="CorreoRegistro" autocomplete="off" required>
+                        <br>
+                        <input type="text" placeholder="cédula" id="CedulaRegistro" autocomplete="off" required>
+                        <input type="text" placeholder="dirección" id="nombreRegistro" autocomplete="off" required>
+                        <br>
+                        <input type="date" id="FechaNacimientoRegistro" autocomplete="off" required>
+                        <input type="text" placeholder="Celular" id="nombreRegistro" autocomplete="off" required>
+                        <br>
+                        <input type="text" placeholder="Teléfono fijo" id="nombreRegistro" autocomplete="off" required>
+                        <input type="text" placeholder="Municipio" id="nombreRegistro" autocomplete="off" required>
+                        <br>
+                        <h4>Genero</h4>
+                        <label for="FemeninoRegistro">Femenino</label>
+                        <input type="radio" value="Femenino" id="FemeninoRegistro" autocomplete="off" required>
+                        <br>
+                        <label for="MasculinoRegistro">Masculino</label>
+                        <input type="radio" value="Masculino" id="MasculinoRegistro" autocomplete="off" required>
+                        <Br>
+                        <input type="submit" value="Registrarse" id="enviarRegist"> </form>
+
+
+                    <p>hola a todos</p>
+                </div>
+            </div>
+        </div>
+
+
 
         <div class="fondo">
 

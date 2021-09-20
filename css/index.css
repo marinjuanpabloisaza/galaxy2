@@ -1,116 +1,204 @@
-        body {
-            padding: 0px;
-            margin: 0px;
-            background-color: rgb(233, 242, 255);
-        }
-        
-        .fondo {
-            background-color: rgb(47, 46, 46);
-            height: 500px;
-            margin: 0px;
-            padding: 0px;
-        }
-        
-        .barra_busqueda {
-            display: flex;
-            justify-content: center;
-            height: 90px;
-            background-color: red;
-        }
-        
-        .barra {
-            margin-top: 20px;
-            width: 800px;
-            height: 30px;
-        }
-        
-        .listado {
-            height: 510px;
-            width: 25%;
-            box-shadow: 0 0 0px #111;
-            margin: 50px 30px;
-            background-color: white;
-        }
-        
-        .listado .imagen {
-            height: 200px;
-            width: 100%;
-            margin-bottom: 170px;
-        }
-        
-        .card img {
-            margin: auto;
-            display: block;
-        }
-        /* Style the navigation bar */
-        
-        .navbar {
-            width: 100%;
-            background-color: #555;
-            overflow: auto;
-        }
-        /* barra  */
-        
-        .navbar a,
-        button {
-            float: left;
-            text-align: center;
-            padding: 15px;
-            color: white;
-            text-decoration: none;
-            font-size: 20px;
-            margin-bottom: 0px;
-        }
-        /* Navbar links on mouse-over */
-        
-        .navbar a:hover {
-            background-color: #000;
-        }
-        /* boton verde */
-        
-        .active {
-            background-color: #04AA6D;
-        }
-        /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-        
-        @media screen and (max-width: 500px) {
-            .navbar a {
-                float: none;
-                display: block;
-            }
-        }
-        
-        .cajaModal {
-            display: flex;
-            text-align: center;
-            justify-content: center;
-            height: 100vh;
-            width: 100vw;
-            position: fixed;
-            top: 0;
-            left: 0;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-        
-        #logo {
-            width: 250px;
-            height: 250px;
-            display: flex;
-            flex-direction: row-reverse;
-            margin-left: 60px;
-        }
-        
-        .fromIngresar {
-            margin: 20px;
-            flex-direction: row-reverse;
-            border: 0;
-        }
-        
-        .ventanaModal {
-            margin-top: 200px;
-            background-color: #ffffff;
-            text-align: center;
-            justify-content: center;
-            width: 1200px;
-            height: 600px;
-        }
+                body {
+                    padding: 0px;
+                    margin: 0px;
+                    background-color: rgb(233, 242, 255);
+                }
+                
+                .fondo {
+                    background-color: rgb(47, 46, 46);
+                    height: 500px;
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                .barra_busqueda {
+                    display: flex;
+                    justify-content: center;
+                    height: 90px;
+                    background-color: red;
+                }
+                
+                .barra {
+                    margin-top: 20px;
+                    width: 800px;
+                    height: 30px;
+                }
+                
+                .listado {
+                    height: 510px;
+                    width: 25%;
+                    box-shadow: 0 0 0px #111;
+                    margin: 50px 30px;
+                    background-color: white;
+                }
+                
+                .listado .imagen {
+                    height: 200px;
+                    width: 100%;
+                    margin-bottom: 170px;
+                }
+                
+                .card img {
+                    margin: auto;
+                    display: block;
+                }
+                /* Style the navigation bar */
+                
+                .navbar {
+                    width: 100%;
+                    background-color: #555;
+                    overflow: auto;
+                }
+                /* barra  */
+                
+                .navbar a,
+                button {
+                    float: left;
+                    text-align: center;
+                    padding: 15px;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 20px;
+                    margin-bottom: 0px;
+                }
+                /* Navbar links on mouse-over */
+                
+                .navbar a:hover {
+                    background-color: #000;
+                }
+                /* boton verde */
+                
+                .active {
+                    background-color: #04AA6D;
+                }
+                /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+                
+                @media screen and (max-width: 500px) {
+                    .navbar a {
+                        float: none;
+                        display: block;
+                    }
+                }
+                
+                .cajaModal {
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+                    height: 100vh;
+                    width: 100vw;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    background-color: rgba(0, 0, 0, 0.5);
+                }
+                
+                #logo {
+                    width: 250px;
+                    height: 250px;
+                    display: flex;
+                    flex-direction: row-reverse;
+                    margin-left: 60px;
+                }
+                
+                .cajaModal {
+                    display: none;
+                    justify-content: center;
+                }
+                
+                .fromIngresar {
+                    position: relative;
+                    right: 200px;
+                    margin: 20px;
+                    flex-direction: row-reverse;
+                    border: 0;
+                }
+                
+                .ventanaModal {
+                    margin-top: 200px;
+                    background-color: #ffffff;
+                    text-align: center;
+                    justify-content: center;
+                    width: 1000px;
+                    height: 600px;
+                }
+                
+                .fondoModal {
+                    display: block;
+                    justify-content: center;
+                    background-color: #36CFBB;
+                    flex-direction: column;
+                    width: 400px;
+                    height: 601px;
+                    position: relative;
+                    left: 601px;
+                    bottom: 362px;
+                }
+                
+                .fromIngresar {
+                    width: 100px;
+                }
+                
+                .fromIngresar input {
+                    display: flex;
+                    justify-content: center;
+                    width: 400px;
+                    height: 25px;
+                    position: relative;
+                    top: 160px;
+                    left: 270px;
+                    background: none;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid #AAAAAA;
+                    font-size: 20px;
+                    margin: 20px;
+                }
+                
+                #textoinicio {
+                    position: relative;
+                    top: 90px;
+                    right: 200px;
+                }
+                
+                .fondoModal #logo {
+                    position: relative;
+                    top: 150px;
+                    left: 20px;
+                }
+                
+                #ingresar,
+                #enviarRegist {
+                    display: flex;
+                    color: white;
+                    background-color: #36CFBB;
+                    width: 200px;
+                    height: 40px;
+                    border-radius: 20px;
+                    position: relative;
+                    left: 270px;
+                    margin-left: 100px;
+                }
+                
+                #ingresar:hover,
+                #enviarRegist:hover {
+                    background-color: #248679;
+                }
+                
+                p {
+                    display: flex;
+                    position: relative;
+                    top: 200px;
+                    left: 170px;
+                }
+                
+                .formRegister input {
+                    justify-content: center;
+                    width: 400px;
+                    height: 25px;
+                    background: none;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid #AAAAAA;
+                    font-size: 20px;
+                    margin: 20px;
+                }
