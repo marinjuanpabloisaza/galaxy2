@@ -16,16 +16,7 @@ function openModal() {
     isOpenModal = !isOpenModal
 
 }
-/*
-modal.addEventListener('click', (event) => {
-    console.log(event.target);
-    modal.style.display = 'flex'
-    console.log(event.target, modal);
-    if (event.target != modal.target) {
-        event.preventDefault()
 
-    }
-})*/
 
 
 const btnOpenModalR = document.getElementById('registrarse')
