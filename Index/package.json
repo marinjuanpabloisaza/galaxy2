@@ -1,0 +1,64 @@
+{
+    "results": [{
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Lucas",
+            "last": "Olsen"
+        },
+        "location": {
+            "street": {
+                "number": 5110,
+                "name": "Lillevangsvej"
+            },
+            "city": "Sundby",
+            "state": "Nordjylland",
+            "country": "Denmark",
+            "postcode": 46243,
+            "coordinates": {
+                "latitude": "-31.1926",
+                "longitude": "-158.1729"
+            },
+            "timezone": {
+                "offset": "+10:00",
+                "description": "Eastern Australia, Guam, Vladivostok"
+            }
+        },
+        "email": "lucas.olsen@example.com",
+        "login": {
+            "uuid": "7bf87d96-21ce-44bd-8d63-ac4567390a6b",
+            "username": "greenduck704",
+            "password": "smokin",
+            "salt": "jeV5sRYq",
+            "md5": "0178a88471918c4ab8c6abb930071575",
+            "sha1": "268fd936c577b55f815953b6c4c5480867501586",
+            "sha256": "6f025b0e46b90c386f29faf491ac97a2e9d127b6cf8b029ac8db3d005159d404"
+        },
+        "dob": {
+            "date": "1988-03-02T12:52:34.196Z",
+            "age": 33
+        },
+        "registered": {
+            "date": "2007-05-18T02:52:55.715Z",
+            "age": 14
+        },
+        "phone": "34250647",
+        "cell": "04543004",
+        "id": {
+            "name": "CPR",
+            "value": "020388-8629"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/36.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/36.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/36.jpg"
+        },
+        "nat": "DK"
+    }],
+    "info": {
+        "seed": "d838691d31ac486e",
+        "results": 1,
+        "page": 1,
+        "version": "1.3"
+    }
+}
